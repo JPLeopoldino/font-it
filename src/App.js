@@ -21,9 +21,7 @@ function App() {
             <Icon icon={type} />
           </button>
           <button className="button">
-            {
-            //<Icon icon={bold} />
-          }
+            <Icon icon={bold} />
           </button>
           <button className="button">
             <Icon icon={italic} />
