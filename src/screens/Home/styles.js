@@ -9,6 +9,7 @@ export const MainContainer = styled.div`
     justify-content: center;
     min-height: 100vh;
     gap: 50px;
+    position: relative;
 `;
 
 export const Title = styled.h1`
@@ -33,6 +34,7 @@ export const BodyContainer = styled.div`
 export const ToolsRow = styled.div`
     border-bottom: 1.5px solid #EEEEEE;
     width: 100%;
+    position: relative;
 `;
 
 export const Button = styled.button`
@@ -58,6 +60,11 @@ export const Button = styled.button`
 `;
 
 export const ToolIcon = styled(Icon)`
+    color: ${
+        props => props.inactive
+        ? '#AAA'
+        : '#000'
+    };
 `;
 
 export const TextContainer = styled.textarea`
@@ -70,4 +77,10 @@ export const TextContainer = styled.textarea`
     font-size: 14px;
     letter-spacing: 0.5px;
     border-radius: 12px;
+`;
+
+export const InfoContainer = styled.div`
+    position: absolute;
+    right: 0;
+    top: 0;
 `;
