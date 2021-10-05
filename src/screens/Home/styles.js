@@ -84,3 +84,28 @@ export const InfoContainer = styled.div`
     right: 0;
     top: 0;
 `;
+
+export const Credits = styled.span`
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 14px 14px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #999;
+
+    user-select: none;
+`;
+
+export const CreditsLink = styled.a`
+    font-size: 11px;
+    padding: 0 0 0 4px;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    &:hover{
+        color: #444;
+    }
+`;

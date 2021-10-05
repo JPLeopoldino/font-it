@@ -25,3 +25,8 @@ export const QuoteMark = styled.blockquote`
         top: 10px;
     }
 `;
+
+export const LinkMark = styled.a`
+    color: #005875;
+    cursor: pointer;
+`;

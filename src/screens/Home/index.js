@@ -2,7 +2,7 @@ import React from 'react';
 import * as SC from './styles';
 
 import TextEditor from '../../components/TextEditor';
-import InputModal from '../../components/InputModal';
+import ControlsModal from '../../components/ControlsModal';
 import { useEditor } from '../../hooks/editor';
 
 import { type } from 'react-icons-kit/feather/type'
@@ -24,8 +24,8 @@ function Home() {
         <SC.MainContainer className="main">
             {
                 openModal ?
-                <InputModal
-                    title="Controles"
+                <ControlsModal
+                    title="Controls"
                     // inputPlaceholder="Insert a URL"
                     // buttonPlaceholder="Click Me"
                     // onPress={event => {
@@ -129,6 +129,15 @@ function Home() {
                 <TextEditor id="editable" />
                 {/* <SC.TextContainer className="text-area" /> */}
             </SC.BodyContainer>
+            <SC.Credits>
+                Created by:
+                <SC.CreditsLink
+                    href={"https://github.com/JPLeopoldino/"}
+                    target='_blank'
+                >
+                    João Pedro Leopoldino
+                </SC.CreditsLink>
+            </SC.Credits>
         </SC.MainContainer>
     );
 }

@@ -1,19 +1,17 @@
 import React from 'react'
-
-// import { useEditor } from '../../hooks/editor';
+import * as SC from './styles';
 
 const LinkMark = (props) => {
-	// const { linkValue } = useEditor();
 
 	return (
-		<a
+		<SC.LinkMark
 			{...props.attributes}
 			href={props.element.url}
 			rel="noreferrer"
 			target="_blank"
 		>
 			{props.children}
-		</a>
+		</SC.LinkMark>
 	);
 };
 
