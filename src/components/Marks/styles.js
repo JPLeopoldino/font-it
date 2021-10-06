@@ -27,6 +27,6 @@ export const QuoteMark = styled.blockquote`
 `;
 
 export const LinkMark = styled.a`
-    color: #005875;
+    color: #02bae3;
     cursor: pointer;
 `;
