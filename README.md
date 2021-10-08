@@ -12,7 +12,7 @@
  <a href="#speech_balloon-about">About</a> •
  <a href="#rocket-how-to-run">How to Run</a> • 
  <a href="#wrench-technologies">Technologies</a> • 
- <a href="#man-author">Author</a>
+ <a href="#coffee-author">Author</a>
 </p>
 
 <div align="center">
@@ -20,7 +20,7 @@
 </div>
 
 ## :speech_balloon: **About**
-📝 Font It is a text editor with Rich-Text formatting and uses valid HTML markup.
+Font It is a text editor with Rich-Text formatting and uses valid HTML markup.
 One of the challenges of this project was user accessibility. How the user could access the text formatting tools using only the keyboard. For that I used ReactJS with the SlateJS library.
 
 ---
@@ -57,7 +57,7 @@ The following tools were used in the construction of the project
 > See more at [package.json](https://github.com/JPLeopoldino/font-it/blob/master/package.json)
 
 ---
-## :man: **Author**
+## :coffee: **Author**
 
 <a href="https://github.com/JPLeopoldino">
  <img style="border-radius: 10px;" src="https://avatars.githubusercontent.com/u/57245390?v=4" width="100px;" alt=""/>
