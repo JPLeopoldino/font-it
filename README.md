@@ -1,66 +1,80 @@
-<div
-    style="
-        background-color: #FFF;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        height: 100%;
-    "
->
-<p style="
-        font-size: 38px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-    "
->
-    <img 
-        src="assets/font-it-logo.png"
-        style="
-            width: 48px;
-            height: 48px;
-            margin-right: 14px;
-            align-self: center;
-        "
-    />
-    Font It
-</p>
+<h1 align="center">Font It</h1>
 
-___
+<p align="center">An user friendly rich-text editor using React! 📝</p>
 
-<div
-    style="
-        display: flex;
-        justify-content: center;
-    "
->
+<div align="center">
 
 ![Badge](https://img.shields.io/github/package-json/v/JPLeopoldino/font-it?color=%23339933&style=flat-square) ![Badge](https://img.shields.io/github/package-json/dependency-version/JPLeopoldino/font-it/react?color=%2361DAFB&style=flat-square) ![Badge](https://img.shields.io/github/package-json/dependency-version/JPLeopoldino/font-it/slate?color=%23888&style=flat-square)
+
 </div>
 
-<div
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#how-to-run">How to Run</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#author">Author</a>
+</p>
+
+<!-- <img 
+    src="assets/font-it-logo.png"
     style="
-        display: flex;
-        justify-content: center;
+        width: 48px;
+        height: 48px;
+        margin-right: 14px;
+        align-self: center;
     "
->
-    <img
-        src="assets/gif.gif"
-        style="
-            width: 50vw;
-            height: auto;
-            margin: 24px 0px;
-            box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.15);
-        "
-    />
+/> -->
+
+<div align="center">
+    <img src="assets/gif.gif" style="width: 80vw; height: auto;"/>
 </div>
 
-This project was created with [ReactJS](https://github.com/facebook/create-react-app).
+## **About**
+📝 Font It is a text editor with Rich-Text formatting and uses valid HTML markup.
+One of the challenges of this project was user accessibility. How the user could access the text formatting tools using only the keyboard. For that I used ReactJS with the SlateJS library.
 
+---
+## **How to run**
+```bash
+# First you have to clone the project
+$ git clone git@github.com:JPLeopoldino/font-it.git
 
-#### How to run this project
-#### `yarn start`
+# Then you have to access the project folder
+$ cd font-it
 
-Runs the app in the development mode.\
+# And you have to install all the dependencies
+$ yarn install
+
+# Finally, you can run it!
+$ yarn start
+
+```
+This project runs in your localhost.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-</div>
+
+---
+### 🛠 **Technologies**
+
+The following tools were used in the construction of the project
+
+- [React](https://pt-br.reactjs.org/)
+- [SlateJS](https://www.slatejs.org/)
+    - [Slate React](https://docs.slatejs.org/libraries/slate-react)
+    - [Slate History](https://docs.slatejs.org/libraries/slate-history)
+- [Styled Components](https://styled-components.com/)
+- [JavaScript](https://www.javascript.com/)
+
+> See more at [package.json](https://github.com/JPLeopoldino/font-it/blob/master/package.json)
+
+---
+### 🧔🏻 **Author**
+
+<a href="https://github.com/JPLeopoldino">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/57245390?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>João Pedro Leopoldino</b></sub></a> <a href="https://github.com/JPLeopoldino" title="GitHub">🌌</a>
+
+
+Created by João Pedro Leopoldino 👋🏻 [Get in Touch!](https://www.linkedin.com/in/jpleopoldino/?locale=en_US)
+
+[![Linkedin Badge](https://img.shields.io/badge/-João%20Pedro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jpleopoldino/)](https://www.linkedin.com/in/jpleopoldino/) [![Gmail Badge](https://img.shields.io/badge/-leopoldino26@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:leopoldino26@gmail.com)](mailto:leopoldino26@gmail.com)
