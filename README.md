@@ -15,16 +15,6 @@
  <a href="#author">Author</a>
 </p>
 
-<!-- <img 
-    src="assets/font-it-logo.png"
-    style="
-        width: 48px;
-        height: 48px;
-        margin-right: 14px;
-        align-self: center;
-    "
-/> -->
-
 <div align="center">
     <img src="assets/gif.gif" style="width: 80vw; height: auto;"/>
 </div>
