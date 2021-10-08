@@ -60,7 +60,7 @@ The following tools were used in the construction of the project
 ### 🧔🏻 **Author**
 
 <a href="https://github.com/JPLeopoldino">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/57245390?v=4" width="100px;" alt=""/>
+ <img style="border-radius: 10px;" src="https://avatars.githubusercontent.com/u/57245390?v=4" width="100px;" alt=""/>
  <br />
  <sub><b>João Pedro Leopoldino</b></sub></a> <a href="https://github.com/JPLeopoldino" title="GitHub">🌌</a>
 
