@@ -10,7 +10,7 @@
 
 <p align="center">
  <a href="#about">About</a> •
- <a href="#how-to-run">How to Run</a> • 
+ <a href="#-play-button-how-to-run">How to Run</a> • 
  <a href="#technologies">Technologies</a> • 
  <a href="#author">Author</a>
 </p>
@@ -19,12 +19,12 @@
     <img src="assets/gif.gif" style="width: 80vw; height: auto;"/>
 </div>
 
-## **About**
+## 💬 **About**
 📝 Font It is a text editor with Rich-Text formatting and uses valid HTML markup.
 One of the challenges of this project was user accessibility. How the user could access the text formatting tools using only the keyboard. For that I used ReactJS with the SlateJS library.
 
 ---
-## **How to run**
+## :play-button: **How to run**
 ```bash
 # First you have to clone the project
 $ git clone git@github.com:JPLeopoldino/font-it.git
@@ -43,7 +43,7 @@ This project runs in your localhost.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ---
-### 🛠 **Technologies**
+## 🛠 **Technologies**
 
 The following tools were used in the construction of the project
 
@@ -57,7 +57,7 @@ The following tools were used in the construction of the project
 > See more at [package.json](https://github.com/JPLeopoldino/font-it/blob/master/package.json)
 
 ---
-### 🧔🏻 **Author**
+## 🧔🏻 **Author**
 
 <a href="https://github.com/JPLeopoldino">
  <img style="border-radius: 10px;" src="https://avatars.githubusercontent.com/u/57245390?v=4" width="100px;" alt=""/>
